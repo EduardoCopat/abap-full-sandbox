@@ -7,7 +7,7 @@ public section.
 
   methods BAR
     importing
-      !QUX type STRING .
+      !I_QUX type STRING .
 protected section.
 private section.
 ENDCLASS.
@@ -18,8 +18,7 @@ CLASS ZCL_FOO IMPLEMENTATION.
 
 
   method BAR.
-    DATA foo type string.
-    foo = 'Foo'.
+    DATA(foo) = 'Foo'.
     WRITE foo && qux.
   endmethod.
 ENDCLASS.
