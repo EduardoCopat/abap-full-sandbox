@@ -1,4 +1,4 @@
-class ZCL_2BAR definition
+class ZCL_QUX definition
   public
   final
   create public .
@@ -10,5 +10,5 @@ ENDCLASS.
 
 
 
-CLASS ZCL_2BAR IMPLEMENTATION.
+CLASS ZCL_QUX IMPLEMENTATION.
 ENDCLASS.
