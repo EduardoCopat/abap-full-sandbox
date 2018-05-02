@@ -18,7 +18,7 @@ CLASS ZCL_FOO IMPLEMENTATION.
 
 
   method BAR.
-    DATA(foo) = 'Foo'.
-    WRITE foo && qux.
+    DATA(foo) = 'Foobar'.
+    WRITE foo && i_qux.
   endmethod.
 ENDCLASS.
