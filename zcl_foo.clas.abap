@@ -1,15 +1,15 @@
-class ZCL_FOO definition
-  public
-  final
-  create public .
+CLASS zcl_foo DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
 
-public section.
+  PUBLIC SECTION.
 
-  methods BAR
-    importing
-      !I_QUX type STRING .
-protected section.
-private section.
+    METHODS bar
+      IMPORTING
+        i_qux TYPE string .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
 ENDCLASS.
 
 
@@ -17,8 +17,8 @@ ENDCLASS.
 CLASS ZCL_FOO IMPLEMENTATION.
 
 
-  method BAR.
-    DATA(foo) = 'Foobar'.
+  METHOD bar.
+    DATA(foo) = 'Foo'.
     WRITE foo && i_qux.
-  endmethod.
+  ENDMETHOD.
 ENDCLASS.
